@@ -17,26 +17,18 @@
       <h1 class="mb-3">Todo List</h1>
       <div class="row mb-3">
         <div class="col-auto">
-          <input type="text" class="form-control" placeholder="new todo item" />
+          <input
+            id="todoText"
+            type="text"
+            class="form-control"
+            placeholder="new todo item"
+          />
         </div>
         <div class="col-auto">
           <button id="addTodo" class="btn btn-primary">Add</button>
         </div>
       </div>
-      <div id="todos">
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="checkbox " class="form-check-input" />
-            My todo
-          </label>
-          <button
-            type="button"
-            class="btn-close"
-            aria-label="Close"
-            style="font-size: 0.625rem"
-          ></button>
-        </div>
-      </div>
+      <div id="todos"></div>
       <script src="./app.js"></script>
     </div>
   </body>
