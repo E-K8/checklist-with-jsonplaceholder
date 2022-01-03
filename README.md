@@ -6,4 +6,4 @@ This project is based on an online tutorial practicing CRUD operations on the fr
 
 Some commits in history show as "unknown" as I was changing SSH keys.
 
-test commit
+UPD: Apparently lack of global settings was the issue.
